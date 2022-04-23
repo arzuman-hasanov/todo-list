@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="top"></div>
-        <div class="header">
-            <h1>To-Do List</h1>
-        </div>
-        <div class="middle">
-            <img src="img/sortAsc.png" id="sortAsc" alt="sortAsc">
-            <img src="img/sortDesc.png" class="hide" id="sortDesc" alt="sortDesc">
-        </div>
-        <div class="search" title="Search">
-            <input type="text" name="search" id="search" placeholder="search">
-        </div>
-        <div class="inputSection" title="Add todo">
-            <input type="text" name="addTodo" placeholder="Add to do">
-            <i class="fa-solid fa-x"></i>
-        </div>
-        <ul class="todos hide">
-            
-            <!-- <li class="todo">
+      <div class="top"></div>
+      <div class="header">
+        <h1>To-Do List</h1>
+      </div>
+      <div class="middle">
+        <img src="img/sortAsc.png" id="sortAsc" alt="sortAsc" />
+        <img src="img/sortDesc.png" class="hide" id="sortDesc" alt="sortDesc" />
+      </div>
+      <div class="search" title="Search">
+        <input type="text" name="search" id="search" placeholder="search" />
+      </div>
+      <div class="inputSection" title="Add todo">
+        <input type="text" name="addTodo" placeholder="Add to do" />
+        <i class="fa-solid fa-x"></i>
+      </div>
+      <ul class="todos hide">
+        <!-- <li class="todo">
                 <input type="text" class="newToDoValue" value="Aa" readonly>
                 <i class="fa-solid fa-x close"></i>
             </li> -->
-            
-        </ul>
-        <div class="bottomPart">
-            <div class="addNewToDo">
-                <span class="addIcon">+</span>
-                <span class="textBtn">Add</span>
-            </div>
+      </ul>
+      <div class="bottomPart">
+        <div class="addNewToDo">
+          <span class="addIcon">+</span>
+          <span class="textBtn">Add</span>
         </div>
+      </div>
     </div>
-    
+
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
     <script>
-        new Sortable(todos, {
-            animation: 350
-        });
+      new Sortable(todos, {
+        animation: 350,
+      });
     </script>
-    <script src="https://kit.fontawesome.com/a5adad225e.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/a5adad225e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
