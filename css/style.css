@@ -1,239 +1,237 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto";
 }
 
 .container {
-    position: relative;
-    width: 336px;
-    border-radius: 10px;
-    border: 1px solid #C4C4C4;
+  position: relative;
+  width: 336px;
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
 }
 
 .container .top {
-    width: 336px;
-    height: 28px;
-    background-color: #FFDC40;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  width: 336px;
+  height: 28px;
+  background-color: #ffdc40;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .container .header h1 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 30px;
-    text-align: center;
-    text-transform: capitalize;
-    margin-top: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 8px;
 }
 
 .container .middle {
-    position: relative;
-    margin-top: 10px;
-    width: 336px;
-    height: 30px;
+  position: relative;
+  margin-top: 10px;
+  width: 336px;
+  height: 30px;
 }
 
 .container img {
-    position: absolute;
-    top: 9px;
-    right: 30px;
-    cursor: pointer;
-    opacity: 0.4;
+  position: absolute;
+  top: 9px;
+  right: 30px;
+  cursor: pointer;
+  opacity: 0.4;
 }
 
 .container img:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .container .inputSection {
-    position: relative;
-    margin-top: 11px;
-    height: 40px;
-    width: 336px;
-    text-align: center;
+  position: relative;
+  margin-top: 11px;
+  height: 40px;
+  width: 336px;
+  text-align: center;
 }
 
 .container .search {
-    width: 336px;
-    text-align: center;
-    margin-top: 10px;
+  width: 336px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .container #search {
-    width: 286px;
-    height: 40px;
-    border: 1px solid #C4C4C4;
-    box-sizing: border-box;
-    border-radius: 10px;
-    padding-left: 15px;
+  width: 286px;
+  height: 40px;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 15px;
 }
 
 .container .inputSection input {
-    width: 286px;
-    height: 40px;
-    border: 1px solid #C4C4C4;
-    box-sizing: border-box;
-    border-radius: 10px;
-    padding-left: 15px;
-    
+  width: 286px;
+  height: 40px;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 15px;
 }
 
 .container .inputSection i {
-    position: absolute;
-    right: 40px;
-    top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: 20px;
-    font-size: 8px;
-    border: 1px solid #666;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: .3s ease-in;
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-size: 8px;
+  border: 1px solid #666;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease-in;
 }
 
 .container .inputSection i:hover {
-    color: #fff;
-    background-color: #833AE0;
+  color: #fff;
+  background-color: #833ae0;
 }
 
 .container .todos {
-    position: relative;
-    width: 286px;
-    border: 1px solid #C4C4C4;
-    border-radius: 10px;
-    margin: 10px auto 0;
-    max-height: 180px;
-    overflow-y: auto;
-    padding: 10px 5px;
-    min-height: 36px;
+  position: relative;
+  width: 286px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  margin: 10px auto 0;
+  max-height: 180px;
+  overflow-y: auto;
+  padding: 10px 5px;
+  min-height: 36px;
 }
 
 .container .todos::-webkit-scrollbar {
-    width: 6px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+  width: 6px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .container .todos::-webkit-scrollbar-thumb {
-    background-color: #FFDC40;
-    border-radius: 10px;
+  background-color: #ffdc40;
+  border-radius: 10px;
 }
 
 .container .todos::-webkit-scrollbar-button {
-    border-radius: 10px;
-    height: 10px;
+  border-radius: 10px;
+  height: 10px;
 }
 .show {
-    display: block !important;
+  display: block !important;
 }
 
 .hide {
-    display: none !important;
+  display: none !important;
 }
 
 .container .todo {
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding: 10px;
-    min-height: 36px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  min-height: 36px;
 }
 
 .container .todo:hover {
-    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 15%);
-    border-radius: 10px;
+  box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 15%);
+  border-radius: 10px;
 }
 
 .container .todo .newToDoValue {
-    padding: 5px;
-    padding-left: 17px;
-    outline: none;
-    border: none;
-    cursor: pointer;
+  padding: 5px;
+  padding-left: 17px;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 .container .todo .close {
-    position: absolute;
-    right: 15px;
-    font-size: 8px;
-    border: 1px solid #666;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: .3s ease-in;
+  position: absolute;
+  right: 15px;
+  font-size: 8px;
+  border: 1px solid #666;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease-in;
 }
 
 .container .todo .close:hover {
-    background-color: #833AE0;
-    color: #fff;
+  background-color: #833ae0;
+  color: #fff;
 }
 
-
 .container .bottomPart {
-    width: 336px;
-    height: 42px;
-    margin-top: 18px;
-    margin-bottom: 19px;
+  width: 336px;
+  height: 42px;
+  margin-top: 18px;
+  margin-bottom: 19px;
 }
 
 .container .bottomPart .addNewToDo {
-    position: relative;
-    width: 150px;
-    height: 42px;
-    background: #833AE0;
-    color: #fff;
-    border-radius: 71px;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    cursor: pointer;
-    transition: .5s ease-in-out;
+  position: relative;
+  width: 150px;
+  height: 42px;
+  background: #833ae0;
+  color: #fff;
+  border-radius: 71px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
 }
 
 .container .bottomPart .addNewToDo:hover {
-    background: #9953F1;
+  background: #9953f1;
 }
 
 .container .bottomPart .addNewToDo .addIcon {
-    width: 42px;
-    height: 42px;
-    background: #9953F1;
-    border-radius: 71px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 42px;
+  height: 42px;
+  background: #9953f1;
+  border-radius: 71px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container .bottomPart .addNewToDo .textBtn {
-    margin-left: 30px;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
+  margin-left: 30px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
 }
-@media  (max-width: 830px) {
-    body {
-        display: block;
-        padding: 30px;
-    }
+@media (max-width: 830px) {
+  body {
+    display: block;
+    padding: 30px;
+  }
 }
