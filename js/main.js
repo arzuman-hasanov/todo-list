@@ -172,7 +172,7 @@ todos.addEventListener("click", (e) => {
   if (todos.children.length == 0) {
     todos.classList.add("hide");
     todos.classList.remove("show");
-    changeSection.style.display = "none";
+
   }
 });
 
